@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie World</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <!-- js links -->
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    <!-- favcon icon -->
+    <link rel="shortcut icon" href="images/fav icon.png" type="image/x-icon">
+
+    <!-- font awesome icons-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#">
+                <img src="images\logo.png" alt="logo">
+            </a>
+        </div>
+         <!--menu--btn----------------->
+         <input type="checkbox" class="menu-btn" id="menu-btn"/>
+         <label class="menu-icon" for="menu-btn">
+             <span class="nav-icon"></span>
+         </label>
+         <!-- menu -->
+        
+        <ul class="menu">
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Blockbuster</a></li>
+            <li><a href="#">Horror</a></li>
+        </ul>
+
+        
+        <div class="search">
+            <input type="search" name="search-bar" id="" placeholder="Find your favorite Movies">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </nav>
+    <section id="main">
+        <!-- show case section -->
+        <div class="showcase-title">
+            <h1>Showcase</h1>
+        </div>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <div class="showcase-box">
+                    <img src="images/s-1.jpg" alt="">
+                </div>
+
+            </li>
+            <li class="item-b">
+                <div class="showcase-box">
+                    <img src="images/s-2.jpg" alt="">
+                </div>
+
+            </li>
+            <li class="item-c">
+                <div class="showcase-box">
+                    <img src="images/s-3.jpg" alt="">
+                </div>
+
+            </li>
+            <li class="item-d">
+                <div class="showcase-box">
+                    <img src="images/s-4.jpg" alt="">
+                </div>
+
+            </li>
+            <li class="item-e">
+                <div class="showcase-box">
+                    <img src="images/s-5.png" alt="">
+                </div>
+
+            </li>
+            
+        </ul>
+
+        
+    </section>
+    <!-- Latest Movies -->
+    <section id="latest">
+        <h2 class="latest-heading">Latest Movies</h2>
+        <ul id="autoWidth2" class="cs-hidden">
+            <!-- slide box -->
+            <li class="item-a">
+                <div class="latest-box">
+                    <!-- image -->
+                    <div class="latest-b-img">
+                        <img src="images/m-1.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action movie</p>
+
+                    </div>
+                </div>
+            </li>
+            <li class="item-b">
+                <div class="latest-box">
+                    <!-- image -->
+                    <div class="latest-b-img">
+                        <img src="images/m-2.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action movie</p>
+
+                    </div>
+                </div>
+            </li>
+            <li class="item-c">
+                <div class="latest-box">
+                    <!-- image -->
+                    <div class="latest-b-img">
+                        <img src="images/m-3.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action movie</p>
+
+                    </div>
+                </div>
+            </li>
+            <li class="item-d">
+                <div class="latest-box">
+                    <!-- image -->
+                    <div class="latest-b-img">
+                        <img src="images/m-4.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action movie</p>
+
+                    </div>
+                </div>
+            </li>
+            <li class="item-e">
+                <div class="latest-box">
+                    <!-- image -->
+                    <div class="latest-b-img">
+                        <img src="images/m-5.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action movie</p>
+
+                    </div>
+                </div>
+            </li>
+            <li class="item-f">
+                <div class="latest-box">
+                    <!-- image -->
+                    <div class="latest-b-img">
+                        <img src="images/m-6.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2018</strong>
+                        <p>Action movie</p>
+
+                    </div>
+                </div>
+            </li>
+            
+          </ul>
+
+    </section>
+    <!-- Movies -->
+    <section>
+        <div class="movie-heading">
+            <h2>Movies</h2>
+        </div>
+        <section id="movie-list">
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-1.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-2.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-3.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-4.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-5.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-6.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-1.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+            <div class="movie-box">
+                <!-- movie image -->
+                <div class="movie-img">
+                    <img src="images/l-7.jpg" alt="">
+                </div>
+                <!-- movie text -->
+                <a href="#">
+                    Tin (2018)
+                </a>
+
+            </div>
+        </section>
+    </section>
+    <!-- buttons -->
+    <section>
+        <div class="btns">
+            <a href="#">Previous</a>
+            <a href="#">Next</a>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p>Movies world</p>
+        <P>copyright Motive Media</P>
+    </footer>
+    <!-- slider script-->
+    <script>
+          $(document).ready(function() {
+            $('#autoWidth,#autoWidth2').lightSlider({
+                autoWidth:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#autoWidth, #autoWidth2').removeClass('cs-hidden');
+                } 
+            });  
+        });
+    </script>
+    
+</body>
+</html>
+
+
+
